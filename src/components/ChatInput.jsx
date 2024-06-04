@@ -15,7 +15,7 @@ const ChatInput = ({ onSendMessage }) => {
       <input
         type="text"
         value={message}
-        onChange={(e) => setMessage(e.target.value)}
+        onChange={(event) => setMessage(event.target.value)}
         placeholder="Digite sua mensagem..."
       />
       <button onClick={handleSend}>ENVIAR</button>

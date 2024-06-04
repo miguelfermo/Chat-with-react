@@ -5,8 +5,8 @@ const Home = () => {
   const [name, setName] = useState('');
   const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     if (name.trim()) {
       navigate('/chat', { state: { name } });
     }
@@ -19,7 +19,7 @@ const Home = () => {
         <input
           type="text"
           value={name}
-          onChange={(e) => setName(e.target.value)}
+          onChange={(event) => setName(event.target.value)}
           placeholder="Digite seu nome"
         />
         <button type="submit">Entrar</button>

@@ -5,7 +5,7 @@ import ChatInput from './ChatInput';
 const Chat = () => {
   const [messages, setMessages] = useState([
     { sender: 'atendente', message: 'Seja Bem-Vindo ao atendimento online da Pizzaria Rossi, pode me chamar de Anna!' },
-    { sender: 'atendente', message: 'Qual sabor e tamanho que você gostaria de pedir?' }
+    { sender: 'atendente', message: 'Qual sabor e tamanho de pizza que você gostaria de pedir?' }
   ]);
 
   const handleSendMessage = (message) => {

@@ -7,7 +7,7 @@ Esse chat foi criado para uma aula de Front-End, a qual criamos um chat (anterio
 2. Digite no terminal dps de instalar: `npm start`
 
 ## 🚀 Execução:
-Digite no terminal do VS Code: `npm run dev`
+Digite no terminal do VS Code: `npm run dev` e abra o link `http://localhost:5173/`
 
 ## 🔭 Demonstração do chat:
 

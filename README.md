@@ -4,7 +4,7 @@ Esse chat foi criado para uma aula de Front-End, a qual criamos um chat (anterio
 
 ## 🔧 Intalação:
 1. Clone este repositório com `git clone` ou baixe o código-fonte.
-2. Digite no terminal dps de instalar: `npm start`
+2. Digite no terminal dps de instalar: `npm install`
 
 ## 🚀 Execução:
 Digite no terminal do VS Code: `npm run dev` e abra o link `http://localhost:5173/`

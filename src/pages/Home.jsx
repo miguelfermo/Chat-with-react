@@ -18,17 +18,17 @@ const Home = () => {
       <div className='box'>
         <div className="pizza"></div>
         <div className="faixa"></div>
-        <p className="ppizza"><strong>venha conhecer o <br/> sabor da melhor <br/> pizza da cidade!</strong></p>
+        <p className="ppizza"><strong>Venha conhecer o <br/> sabor da melhor <br/> pizza da cidade!</strong></p>
         <div className="left">
           <h1 className='h1'>BEM-VINDO À <br></br>PIZZARIA ROSSI</h1>
-          <p className="p">para começar seu atendimento, digite o seu nome</p>
+          <p className="p">Para começar seu atendimento, digite o seu nome:</p>
           <form onSubmit={handleSubmit}>
             <input
               className="input"
               type="text"
               value={name}
               onChange={(event) => setName(event.target.value)}
-              placeholder="Digite seu nome"
+              placeholder="Digite seu nome..."
             />
             <button type="submit" className="button">Pedir</button>
           </form>

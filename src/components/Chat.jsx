@@ -5,8 +5,8 @@ import './chat.css'
 
 function Chat({nome}) {
   const [messages, setMessages] = useState([
-    { sender: 'atendente', message:<p>Seja Bem-Vindo ao atendimento online da Pizzaria Rossi, pode me chamar de Isis ou Miguel!</p>},
-    { sender: 'atendente', message:<p >Qual sabor e tamanho de pizza que você gostaria de pedir <strong>{nome}</strong>?</p>}
+    { sender: 'atendente', message:<p>Seja Bem-Vindo ao atendimento online da Pizzaria Rossi, pode me chamar de Isis ou de Miguel!</p>},
+    { sender: 'atendente', message:<p >Qual sabor e tamanho de pizza que você gostaria de pedir, <strong>{nome}</strong>?</p>}
   ]);
   const handleSendMessage = (message) => {
     setMessages([...messages, { sender: 'me', message }]);

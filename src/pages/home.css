@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--var03); 
+    background-image: linear-gradient(to bottom, #8f3e13 10%, #61120E); 
     font-family: Arial, sans-serif;
     overflow-y: hidden;
     overflow-x: hidden;

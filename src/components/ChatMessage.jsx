@@ -6,7 +6,7 @@ const ChatMessage = ({ sender, message }) => {
     <div className={`message ${isUser ? 'me' : 'atendente'}`}>
       <span>{isUser ? 'Você diz:' : 'Atendente diz:'}</span>
       <div className={isUser ? 'my-message' : 'atendente-message'}>
-        {message}
+        <p>{message}</p>
       </div>
     </div>
   );

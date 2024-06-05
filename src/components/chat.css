@@ -114,3 +114,18 @@
     background-color: #c0392b;
 }
   
+.message + .message {
+    margin-top: 15px;
+}
+
+.message span{
+    margin-bottom: 10px;
+}
+
+.atendente + .atendente span{
+    display: none;
+}
+
+.me + .me span {
+    display: none;
+}

@@ -16,4 +16,5 @@ Digite no terminal do VS Code: `npm run dev` e abra o link `http://localhost:517
 
 ## 🔭 Demonstração do chat:
 
-![image](https://github.com/miguelfermo/Chat-Pizzaria-Fake/assets/138122016/2e1b2739-9184-452f-9ee8-6201aa680426)
+![image](https://github.com/miguelfermo/Chat-with-react/blob/main/src/Midia/Chat.png)
+![image](https://github.com/miguelfermo/Chat-with-react/blob/main/src/Midia/Tela%20entrada.png)

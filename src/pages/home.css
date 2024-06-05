@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --var01: #111111;
+    --var02: #fff9f5;
+    --var03: #61120E;
+    --var04: #c55518;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--var03); 
+    font-family: Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.box{
+    width: 850px;
+    height: 400px;
+    border-radius: 7px;
+    position: relative;
+    justify-self: center;
+    display: block;
+    background-image: url('C:\Users\isisc\Documents\Chat-with-react\src\Midia\blurbackground.png');
+    background-size: cover;
+    box-shadow: 2px 2px 7px var(--var01);
+}
+
+.left{
+    width: 550px;
+    height: 300px;
+    z-index: 0;
+    align-content: center;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    padding: 20px;
+}
+
+.h1{
+    text-align: end;
+    font-size: 40px;
+    margin-bottom: 37px;
+    color: var(--var04);
+    text-shadow: 2px 2px 2px #111111;
+}
+
+.p{
+    text-align: end;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--var02);
+}
+
+.input{
+    border-radius: 5px;
+    width: 380px;
+    height: 15px;
+    position: relative;
+    outline: none;
+    border: none;
+    padding: 7px;
+    left: 17%;
+    margin-bottom: 10px;
+}
+
+.button{
+    position: relative;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 27px;
+    border-radius: 5px;
+    left: 20%;
+    cursor: pointer;
+}
+
+.button:hover{
+    transition: .2s;
+    background-color: var(--var04);
+}
+
+.pizza{
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    background-image: url('C:\Users\isisc\Documents\Chat-with-react\src\Midia\pizza.png');
+    background-size: cover;
+    top: 25%;
+    left: 10%;
+}
+
+.faixa{
+    background-color: var(--var03);
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    z-index: 0;
+    transform: translate(0%, -50%);
+    top: 35%;
+    left: 3%;
+    box-shadow: 2px 2px 7px var(--var01);
+    border-radius: 0px 0px 0px 10px;
+}
+
+.ppizza{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--var04);
+    position: absolute;
+    text-align: start;
+    left: 5%;
+    top: 7%;
+}

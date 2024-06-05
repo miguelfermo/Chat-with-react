@@ -8,8 +8,7 @@ const ChatPage = () => {
 
   return (
     <div>
-      <h1>Olá, {name}! Bem-vindo ao Chat da Pizzaria Rossi!</h1>
-      <Chat />
+      <Chat nome={name}/>
     </div>
   );
 };

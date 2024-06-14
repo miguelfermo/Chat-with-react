@@ -29,7 +29,7 @@ body {
     position: relative;
     justify-self: center;
     display: block;
-    background-image: url('./src/Midia/blurbackground.png');
+    background-image: url('https://i.ibb.co/2nK871q/blurbackground.png');
     background-size: cover;
     box-shadow: 2px 2px 7px var(--var01);
 }
@@ -94,7 +94,7 @@ body {
     position: absolute;
     border-radius: 50%;
     z-index: 1;
-    background-image: url('./src/Midia/pizza.png');
+    background-image: url('https://i.ibb.co/JqRLRpy/pizza.png');
     background-size: cover;
     top: 25%;
     left: 10%;

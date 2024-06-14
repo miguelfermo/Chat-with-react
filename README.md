@@ -7,6 +7,9 @@ Esse chat foi criado para uma aula de Front-End, a qual criamos um chat (anterio
 - [Miguel Fermo](https://github.com/miguelfermo)
 - [Isis Costa](https://github.com/isiscostabb)
 
+## 🔗 Acesse o projeto:
+Clique [AQUI](https://pizzariarossi.netlify.app)!
+
 ## 🔧 Intalação:
 1. Clone este repositório com `git clone` ou baixe o código-fonte.
 2. Digite no terminal dps de instalar: `npm install`

@@ -7,7 +7,7 @@ function Chat({nome}) {
   const [messages, setMessages] = useState([
     { sender: 'atendente', message: "Seja Bem-Vindo ao atendimento online da Pizzaria Rossi, pode me chamar de Isis ou de Miguel!"},
     { sender: 'atendente', message: `Qual sabor e tamanho de pizza que você gostaria de pedir, ${nome}?`}
-  ]);
+  ]);   
   const handleSendMessage = (message) => {
     setMessages([...messages, { sender: 'me', message }]);
   };
